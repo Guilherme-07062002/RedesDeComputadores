@@ -80,3 +80,19 @@ Além disso, eles também realizam o gerenciamento de dados enquanto eles fluem.
 A codificação de sinal que ocorre em cada meio fisico é diferente, em fios metálicos os dados são enviados por meio de impulsos elétricos, já em fibra optica são passados por meio de feixes de luz, e em transmissões sem fio a comunicação acontece por meio de ondas eletromagnéticas que representam os valores de bit.
 
 Diferentes meios físicos possuem diferentes características e individualidades, alguns são mais eficientes a grandes distâncias, outros são mais resistentes em ambientes externos, enquanto alguns são melhores quando há a necessidade de trafegar uma grande quantidade de dados, além disso cada um possui um custo especifico para o uso e instalação.
+
+### Redes de área local
+
+Uma Rede Local (ou **LAN**) geralmente se espalha por uma única área, fornecendo serviços para um determinada região, como por exemplo a rede de um campus, e costuma ser administrada por uma única organização.
+
+### Redes de longa distância
+
+Chamamos de **WAN** redes de longas distâncias que interconectam LANs, ou seja, quando uma empresa possui filiais que são separadas por grandes distâncias, pode ser necessário usar um provedor de telecomunicações para realizar a interconexão entre essas redes locais, e é ai que WAN entra.
+
+### Intranet
+
+Termo usado para se referir a conexões privadas, que pertencem a alguma organização específica que e só pode ser acessado por funcionários ou membros desta.
+
+### Internet - Uma rede de redes
+
+A internet pode ser definida como uma grande interconexão entre redes LAN e WAN, ou seja é um grande conglomerado de redes interconectadas que se comunicam entre si, permitindo o fluxo e passagem de informação a milhões de usuários ao redor do mundo.
