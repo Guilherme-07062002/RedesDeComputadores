@@ -111,7 +111,7 @@ Por exemplo, se fossemos fazer uma analogia com a comunicação humana poderiamo
 
 A importância da existência desses protocolos se dá pelo fato de que é necessário haver uma padronização para que desta forma, diferentes máquina de diferentes fabricantes e diferentes redes possam se comunicar, pois todas seguem os mesmo protocolos.
 
-# A interação entre protocolos
+### A interação entre protocolos
 
 Um exemplo do uso de um conjunto de protocolos é a comunicação entre um servidor web e um navegador, essa interação utiliza um número de protocolos e processos para que seja possivel a troca de informações.
 
@@ -130,3 +130,48 @@ Exemplos de protocolos:
   De forma resumida eles gerenciam o enlace de dados, removendo os pactes IP e formatando os dados para serem transmitidos para o meio fisico, exemplo: Ethernet.
 
 Dessa forma, podemos definir protocolos como o que descreve as funções que ocorrem durante as operações de rede. E graças aos protocolos um computador pode acessar uma página web armazenada em qualquer tipo de servidor web que utiliza de qualquer sistema operacional, de qualquer lugar na internet.
+
+## Modelos de Protocolo e de Referência
+
+Um modelo de rede é apenas uma representação da operação da rede. Existem dois tipos basicos de modelos de rede.
+
+**Modelo de protocolo**
+  
+![tcp/ip](img_readme/img1.png)
+  
+Fornece um modelo que representa tipicamente toda a funcionalidade necessária para fazer a interface humano-rede. Ou seja o modelo **TCP/IP** é um modelo de protocolo pois descreve as funções que ocorrem em cada camada de protocolo.
+
+Para que a comunicação ocorra segundo o modelo TCP/IP, o protocolo é implementado no host cliente e destino.
+
+A informação passa por todas as camadas:
+
+1. Criação de dados na camada de aplicação
+2. Segmentação e encapsulamento dos dados
+3. Geração dos dados no meio fisico na camada de acesso a rede
+4. Trasporte dos dados através da rede
+5. Recepção dos dados na camada de acesso a rede do dispositivo final de destino
+6. Desencapsulamento e remontagem dos dados a medida que estes passam novamente em sentido contrário por todas as camadas.
+
+### Unidades de dados de protocolos
+
+A medida que os dados da aplicação transitam na pilha de protocolo, a forma que cada pedaço de dado é chamada muda.
+
+* Dados - Termo geral para a PDU usada na camada de aplicação
+* Segmento - PDU da camada de transporte
+* Pacote - Camada de rede
+* Quadro - Acesso a rede
+* Bits - Meio fisico
+
+**Modelo de referência**
+  
+![osi](img_readme/osi.png)
+
+Não tem a intenção de ser uma especificação de como tudo deve ser implementado, o principal propósito do modelo de referência é de auxiliar o entendimento dos processos e funções envolvidas, temos como exemplo o modelo **OSI**.
+
+### Comparação entre modelos
+
+![comparação](img_readme/comparacao.png)
+
+Em resumo os dois modelos querem dizer a mesma coisa mas de formas diferentes, por exemplo o modelo OSI detalha a camada de aplicação do modelo TCP/IP, dividindo-o em quatro camadas, de forma que seja os processos envolvidos sejam exibidos de forma mais especifica.
+
+Algo semelhante é visivel na camada de acesso á rede do TCP/IP que é divida em duas camadas no modelo OSI.
