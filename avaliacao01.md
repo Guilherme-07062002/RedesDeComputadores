@@ -52,3 +52,31 @@ Um host pode agir como um cliente ou servidor, ou ambos, o software instalado de
 * Servidores são hosts cujo o software instalado costuma ser especializado em **fornecer** informações ou serviços, como e-mail, ou páginas web a outros hosts.
 * Clientes são hosts cujo software instalado é focado em solicitar e exibir as informações obtidas no servidor.
   
+### Dispositivos intermediários e seu papel na rede
+
+Fornecem conectividade e operam por trás do cenário de rede para garantir que as mensagems possam trafegar. Esses dispositivos conectam os hosts entre si.
+Exemplos:
+
+* Dispositivos de acesso a rede (Hubs, switchs e pontos de acesso sem fio)
+* Roteadores
+* Modems
+* Firewalls
+
+Além disso, eles também realizam o gerenciamento de dados enquanto eles fluem. Eles utilizam o endereço de destino além de um conjunto de informações para determinar qual o melhor caminho pelo qual a mensagem deve trafegar por meio de processos que são executados nestes dispositivos que executam as seguintes funções:
+
+* Regenerar e retransmitir sinais
+* Manter informação sobre quais caminhos existem pela rede
+* Notificar outros dispositivos acerca de erros e falhas de comunicação
+* Direcionar mensagens por caminhos alternativos quando necessário.
+* Classificar e direcionar mensagems de acordo com prioridades (QoS)
+* Permitir ou negar fluxo de dados
+
+#### Tipos de meio físico
+
+* Cabos de fios metalicos
+* Fibra óptica
+* Transmissão sem fio (wireless)
+
+A codificação de sinal que ocorre em cada meio fisico é diferente, em fios metálicos os dados são enviados por meio de impulsos elétricos, já em fibra optica são passados por meio de feixes de luz, e em transmissões sem fio a comunicação acontece por meio de ondas eletromagnéticas que representam os valores de bit.
+
+Diferentes meios físicos possuem diferentes características e individualidades, alguns são mais eficientes a grandes distâncias, outros são mais resistentes em ambientes externos, enquanto alguns são melhores quando há a necessidade de trafegar uma grande quantidade de dados, além disso cada um possui um custo especifico para o uso e instalação.
