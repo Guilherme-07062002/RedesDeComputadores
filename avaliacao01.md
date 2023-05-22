@@ -110,3 +110,23 @@ Por exemplo, se fossemos fazer uma analogia com a comunicação humana poderiamo
 * Camada fisica: Temos duas pessoas que por meio da sua voz transmitem o que querem dizer pelo meio fisico (ar).
 
 A importância da existência desses protocolos se dá pelo fato de que é necessário haver uma padronização para que desta forma, diferentes máquina de diferentes fabricantes e diferentes redes possam se comunicar, pois todas seguem os mesmo protocolos.
+
+# A interação entre protocolos
+
+Um exemplo do uso de um conjunto de protocolos é a comunicação entre um servidor web e um navegador, essa interação utiliza um número de protocolos e processos para que seja possivel a troca de informações.
+
+Exemplos de protocolos:
+
+* Protocolo de aplicação
+  **Protocolo HTTP** é um protocolo comum que rege a maneira como um servidor e um cliente web interagem, o HTTP define o conteúdo e o formato das solicitações e respostas trocadas entre os hosts.
+
+* Protocolo de transporte:
+  **Protocolo TCP** é o protocolo que gerencia as conversar entre servidores e clientes web, O TCP divide as mensagem HTTP em pedaços menores, chamados de segmentos e os enviam ao host de destino, além de controlar o tamanho e a frequência em que as mensagens são trocadas.
+
+* Protocolo de rede:
+  O protocolo de rede mais comum é o **Protocolo IP**, ele retira os segmentos criados pelo TCP, encapsulando-os em pacotes e selecionando o melhor caminho para o destino.
+
+* Protocolo de acesso a rede
+  De forma resumida eles gerenciam o enlace de dados, removendo os pactes IP e formatando os dados para serem transmitidos para o meio fisico, exemplo: Ethernet.
+
+Dessa forma, podemos definir protocolos como o que descreve as funções que ocorrem durante as operações de rede. E graças aos protocolos um computador pode acessar uma página web armazenada em qualquer tipo de servidor web que utiliza de qualquer sistema operacional, de qualquer lugar na internet.
