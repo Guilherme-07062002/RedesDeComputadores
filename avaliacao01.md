@@ -26,3 +26,29 @@ No entanto o aspecto negativo de se utilizar a **multiplexação** e a **segment
 
 Em comunicações de rede cada mensagem passa por um processo similar ao de o empacotamento de uma carta, para garantir que se chegue ao seu destino.
 
+### Componentes da rede
+
+O caminho que uma mensagem vai utilizar para chegar ao seu destino pode ser tão simples como um único cabo, ou tão complexo quanto uma rede que atravessa todo o planeta.
+
+Dentre esses meios, existem o meio físico (mídia) que se constituem de componentes vísiveis como: Switch, cabos, um computador ou laptop, etc... No entanto o meio físico também pode ser invisível como no caso o ar, com a utilização de frequência de rádio e ondas eletromagneticas.
+
+Além disso existem os serviços de rede, que são serviços que fornecem uma informação de resposta a alguma requisição ou solicitação.
+Serviços incluem muitas das aplicações que utilizamos durante o dia-a-dia, como um serviço de hospedagem de e-mails ou serviços de hospedagem na nuvem.
+
+### Dispositivos finais e seu papel na rede
+
+Os dispositivos finais são aqueles que utilizamos e fornecem a interface entre a rede e nós humanos.
+Alguns exemplos de dispositivos finais:
+
+* Computadores
+* Impressoras
+* Camêras de segurança
+* Celulares
+
+No contexto de rede chamamos dispositivos finais de hosts, existem hosts de origem e de destino, podemos destinguir um do outro apartir do seu endereço, quando um host inicia a comunicação ele usa o endereço do outro host (de destino), para especificar aonde a mensagem deverá chegar.
+
+Um host pode agir como um cliente ou servidor, ou ambos, o software instalado determina o seu papel.
+
+* Servidores são hosts cujo o software instalado costuma ser especializado em **fornecer** informações ou serviços, como e-mail, ou páginas web a outros hosts.
+* Clientes são hosts cujo software instalado é focado em solicitar e exibir as informações obtidas no servidor.
+  
