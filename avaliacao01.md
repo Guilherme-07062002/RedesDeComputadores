@@ -96,3 +96,17 @@ Termo usado para se referir a conexões privadas, que pertencem a alguma organiz
 ### Internet - Uma rede de redes
 
 A internet pode ser definida como uma grande interconexão entre redes LAN e WAN, ou seja é um grande conglomerado de redes interconectadas que se comunicam entre si, permitindo o fluxo e passagem de informação a milhões de usuários ao redor do mundo.
+
+### Regras que regem a comunicalção
+
+Toda comunicação é regida por regras chamadas de protocolos. A comunicação com sucesso entre hosts em uma rede exige a interação de vários protocolos diferentes.
+
+Uma das melhores formas de visualizarmos esse conjunto de protocolos é por meio de uma pilha. Eles são visualizados como uma hierarquia de camadas, cada npivel superior depende da funcionalidade definida pelos protocolos dos niveis inferiores.
+
+Por exemplo, se fossemos fazer uma analogia com a comunicação humana poderiamos destacar 3 camadas de protocolos:
+
+* Camada de conteúdo: Ou seja o assunto que será tratado nesta comunicação.
+* Camada de regras: Seria o conjunto de regras necessárias para um diálogo, como por exemplo, use uma linguagem comum, aguarde sua vez e espere pra falar.
+* Camada fisica: Temos duas pessoas que por meio da sua voz transmitem o que querem dizer pelo meio fisico (ar).
+
+A importância da existência desses protocolos se dá pelo fato de que é necessário haver uma padronização para que desta forma, diferentes máquina de diferentes fabricantes e diferentes redes possam se comunicar, pois todas seguem os mesmo protocolos.
