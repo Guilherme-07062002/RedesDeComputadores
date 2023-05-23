@@ -40,3 +40,13 @@ Geralmente utiliza de vidro ou fibra de plástico para transmitir os bits codifi
 Uma vantagem da fibra é que ela não sofre interferência de campos eletromagnéticos já que transmite a informação por meio de pulsos de luz.
 
 No entanto ela é mais cara do que o fio de cobre e exige mais cuidados na instalação.
+
+## Meio fisico sem fio
+
+Transmite a informação por meio de ondas eletromagneticas nas frequências de rádio e microondas.
+
+Funciona muito bem em ambientes abertos, no entanto alguns materiais de construção utilizados em prédios e estruturas podem barrar uma parte do sinal causando interferência, isso também pode acontecer por meio de outros dispositivos sem fio que se comuniquem paralelamente na mesma frequência.
+
+Ela também exige que exista mais medidas de segurança já que por não depender de um cabo ou outro meio fisico, na teoria qualquer um pode se conectar, para isso que usuários precisam de senha ou outros artificios para utiliza-la.
+
+Um tipo de conexão wireless (sem fio) é o bluetooth, mas ele foi criado na intenção de ser utilizado na passagem de informação em curtas distâncias.
