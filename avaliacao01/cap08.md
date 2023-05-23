@@ -32,3 +32,11 @@ Exemplo:
 É o meio fisico mais utilizado, além do cabo de cobre tradicional ou como também é chamado, cabo de pares trançados (muito utilizado em residências), também existe o cabo coaxial: que é um cabo 'blindado' geralmente utilizado em ambientes externos, como por exemplo para realizar a conexão em antenas que fiquem fora de casa, pois eles possuem uma blindagem que os protege contra fatores como chuva ou ventos fortes.
 
 É importante tomar os devidos cuidados pois os cabos não blindados também podem sofrer interferência de campos eletromagneticos, isso costuma acontecer quando se aproxima um ima ou um fio elétrico que passe proximo a ele, pois a eletricidade pode gerar campos eletromagneticos, e estes causam interferência no sinal, chamamos isso de **diafonia** (quando fios se cruzam e causam alguma interferência um no outro).
+
+## Meio fisico de fibra
+
+Geralmente utiliza de vidro ou fibra de plástico para transmitir os bits codificados em pulsos de luz da origem para o destino, ele também suporta taxas de largura de banda maiores.
+
+Uma vantagem da fibra é que ela não sofre interferência de campos eletromagnéticos já que transmite a informação por meio de pulsos de luz.
+
+No entanto ela é mais cara do que o fio de cobre e exige mais cuidados na instalação.
