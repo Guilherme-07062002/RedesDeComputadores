@@ -138,6 +138,7 @@ Um modelo de rede é apenas uma representação da operação da rede. Existem d
 **Modelo de protocolo**
   
 ![tcp/ip](img_readme/img1.png)
+
 Fornece um modelo que representa tipicamente toda a funcionalidade necessária para fazer a interface humano-rede. Ou seja o modelo **TCP/IP** é um modelo de protocolo pois descreve as funções que ocorrem em cada camada de protocolo.
 
 Para que a comunicação ocorra segundo o modelo TCP/IP, o protocolo é implementado no host cliente e destino.

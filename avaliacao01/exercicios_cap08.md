@@ -2,7 +2,7 @@
 
 ## 1- Porque as questões de segurança devem ser consideradas ao utilizar o cabeamento de cobre?
 
-* Perigos elétricos, já que a eletricidade pode ser conduzida de formas indesejadas causando acidentes e riscos a saúde, além do perigo de se utilizar este tipo de cabeamento em chuvas por causa dos raios, que podem danificar os aparelhos, além do risco de causar incêndios.
+Principalmente por causa dos perigos elétricos, já que a eletricidade pode ser conduzida de formas indesejadas causando acidentes e riscos a saúde, além do perigo de se utilizar este tipo de cabeamento em chuvas por causa dos raios, que podem danificar os aparelhos, sem contar o risco de causar incêndios.
 
 ## 2- Em que situações o cabeamento de fibra óptica é melhor que o cabeamento de cobre?
 
