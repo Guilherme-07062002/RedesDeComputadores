@@ -47,3 +47,19 @@ A subcamada LLC identifica no quadro qual protocolo de rede está sendo usado.
 Em resumo, subcamada MAC fornece o endereçamento fisico da camada de enlace.
 
 ![quadro](img_readme/quadro2.png)
+
+## Controle de acesso ao meio
+
+A camada de enlace também possui um controle de acesso ao meio
+
+![acesso ao meio](img_readme/acesso-ao-meio.png)
+
+Existem diferentes controles de acesso ao meio como:
+
+* Compartilhado:
+  * Controlado - Os dispositivos se alternam para se comunicar, graças a detecção de colisão e a prevenção de colisão que verifica se há algum sinal no meio, caso o caminho esteja livre ele envia a informação para que seja trafegada.
+* ![controlado](img_readme/controlado.png)
+  * Com base em contenção (disputa) - Os dispositivos enviam quando estiverem prontos.
+* ![disputa](img_readme/disputa.png)
+* Não compartilhado - Em resumo uma conexão de ponta a ponta, que se divide em **full-duplex** aonde os dispositivos enviam e recebem informações ao mesmo tempo e o **half-duplex** em que as informações são enviadas e recebidas mas não ao mesmo tempo.
+* ![não compartilhado](img_readme/ncompartilhado.png)
