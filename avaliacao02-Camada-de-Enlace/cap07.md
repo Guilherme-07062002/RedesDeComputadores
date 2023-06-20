@@ -63,3 +63,17 @@ Existem diferentes controles de acesso ao meio como:
 * ![disputa](img_readme/disputa.png)
 * Não compartilhado - Em resumo uma conexão de ponta a ponta, que se divide em **full-duplex** aonde os dispositivos enviam e recebem informações ao mesmo tempo e o **half-duplex** em que as informações são enviadas e recebidas mas não ao mesmo tempo.
 * ![não compartilhado](img_readme/ncompartilhado.png)
+
+## Topologia de rede
+
+Topologia de rede é a combinação ou o relacionamento dos dispositivos de rede a forma como eles se interconectam.
+
+A **topologia física** é a combinação dos nós (hosts) e as conexões fisicas entre eles.
+
+Abaixo um exemplo da **topologia lógica** e como ela se divide:
+
+![topologia de rede](img_readme/topologia.png)
+
+Por exemplo, utilizando novamente o exemplo dos dois computadores que estão em países diferentes, fisicamente falanado existem vários meios diferentes de conexão entre eles, mas logicamente falando, eles se comunicam apartir de uma topologia ponto-a-ponto, ou seja a topologia lógica desconsidera os processos físicos intermediários e dá enfase maior a conexão entre os dispositivos de origem e destino.
+
+Ou seja, mesmo que a mensagem passe por vários tipos de conexão física, logicamente eles estão mandando uma mensagem diretamente (ponto-a-ponto) um com o outro.
