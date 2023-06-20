@@ -17,3 +17,19 @@ A PDU (Unidade de dado de protocolo) da camada de enlace é o quadro.
 Vamos imaginar a seguinte situação, dois computadores desejam se comunicar, um de Paris e outro do Japão.
 
 Por mais que os dois se comuniquem usando o mesmo protocolo de rede (IP por exemplo), serão necessários inúmeros protocolos da camada de enlace para que a informação chegue ao destino, tendo em vista a quantidade de meios fisicos e dispositivos intermediários de rede diferentes, pelos quais a informações terá que trafegar para chegar ao destino.
+
+## Criação de um quadro
+
+![Quadro](./img_readme/quadro.png)
+
+O quadro é o elemento principal de cada protocolo da camada de enlace.
+
+Para que a comunicação seja realizada o protocolo da camada de enlace prepara um pacote para o transporte através dele são encapsuladas informações com um cabeçalho e um trailer para criar o quadro.
+
+Ele é dividido em:
+
+* Dados - O pacote da camada de rede
+* Cabeçalho - Contém informações de controle como endereçamento, e é localizado no inicio do quadro.
+* Trailer - Informação de controle adicionada ao final do quadro.
+
+A importância do quadro é que durante o processo de comunicação as informações são codificadas em bits, no entanto é necessário que se saiba aonde um dado acaba e aonde ele termina, para isso servem o cabeçalho e o trailer da PDU.
