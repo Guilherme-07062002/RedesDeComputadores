@@ -33,3 +33,17 @@ Ele é dividido em:
 * Trailer - Informação de controle adicionada ao final do quadro.
 
 A importância do quadro é que durante o processo de comunicação as informações são codificadas em bits, no entanto é necessário que se saiba aonde um dado acaba e aonde ele termina, para isso servem o cabeçalho e o trailer da PDU.
+
+## Sub-camadas de enlace de dados
+
+Para suportar uma grande variedade de funções de rede a camada de enlace é divida em sub-camadas, uma inferior e uma superior.
+
+### Logical Link Control (LLC)
+
+A subcamada LLC identifica no quadro qual protocolo de rede está sendo usado.
+
+### Media Access Control (MAC)
+
+Em resumo, subcamada MAC fornece o endereçamento fisico da camada de enlace.
+
+![quadro](img_readme/quadro2.png)
