@@ -58,11 +58,11 @@ Existem diferentes controles de acesso ao meio como:
 
 * Compartilhado:
   * Controlado - Os dispositivos se alternam para se comunicar, graças a detecção de colisão e a prevenção de colisão que verifica se há algum sinal no meio, caso o caminho esteja livre ele envia a informação para que seja trafegada.
-* ![controlado](img_readme/controlado.png)
+  ![controlado](img_readme/controlado.png)
   * Com base em contenção (disputa) - Os dispositivos enviam quando estiverem prontos.
-* ![disputa](img_readme/disputa.png)
+  ![disputa](img_readme/disputa.png)
 * Não compartilhado - Em resumo uma conexão de ponta a ponta, que se divide em **full-duplex** aonde os dispositivos enviam e recebem informações ao mesmo tempo e o **half-duplex** em que as informações são enviadas e recebidas mas não ao mesmo tempo.
-* ![não compartilhado](img_readme/ncompartilhado.png)
+  ![não compartilhado](img_readme/ncompartilhado.png)
 
 ## Topologia de rede
 
